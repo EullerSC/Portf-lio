@@ -1,0 +1,134 @@
+:root{
+    --verde:mediumseagreen;
+    --branco:#f2f7f7;
+    --preto:#070808;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: var(--verde);
+    font-family:Arial, Helvetica, sans-serif;
+    color: var(--branco);
+
+}
+
+/* header container*/
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px #0c0c0c;  
+}
+
+header .logo {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--preto);
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px white;
+}
+
+header nav a{
+   text-decoration: none;
+   text-shadow: 5px 5px 8px white;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   font-size: 20px;
+   margin-right: 10px;
+   color: var(--preto);
+}
+
+header nav a:hover {
+    color: var(--branco);
+}
+
+/* tabela-principal  */ 
+
+.tabela-principal{
+    font-size: 18px;
+   background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)),url(../imagens/Thiago\ Nigro.jpg);
+   height: 500px;
+   background-size: cover;
+  /* background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-position: center;*/
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin-top: 30px;
+}
+
+
+.tabela-principal .container{
+    margin-top: 120px;
+   
+}
+
+.tabela-principal .descricao{
+    text-shadow: 2px 2px 5px rgb(5, 5, 5);
+    color: var(--branco);
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.titulo{
+    margin-top: 12%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 5px rgb(5, 5, 5);
+
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+div button a{
+    text-decoration: none;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-top: 9px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    
+    display: block;
+}
+
+.tabela-canal{
+    margin-top: 10px;
+   
+}
+
+.jovem{
+    border: none;
+    text-decoration: none;
+    
+}
