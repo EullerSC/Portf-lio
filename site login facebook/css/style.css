@@ -1,0 +1,289 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.clear
+{
+	clear: both;
+}
+
+div.center{
+	max-width: 1100px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+header{
+	background:#273ef2;
+	padding: 8px 0;
+}
+
+.logo{
+	float: left;
+	color: white;
+
+}
+
+.logo h2{
+
+	font-size: 23px;
+	font-weight: normal;
+}
+
+div.clear
+{
+	clear: both;
+}
+
+form.login{
+	float: right;
+}
+
+form.login div.login-elemento {
+	display: inline-block;
+	margin-right: 15px;
+
+}
+
+form.login {
+	color: white;
+	font-size: 14px;
+}
+
+
+.login input[type=email], .login input[type=senha]{
+	margin-top: 5px;
+	border: 0;
+	padding: 5px;
+	outline: none;
+}
+
+.login input[type=submit]{
+	cursor: pointer;
+	border: 0;
+	background:#3d51f2 ;
+	color: white;
+	padding: 3px 5px;	
+}
+
+.login input[type=submit]:hover{
+
+	background:#273ef2 ;
+}
+
+
+section.main{
+
+	background: linear-gradient(white, #D3D8E8);
+	padding: 40px 0; 
+}
+
+
+.img{
+	float: left;
+	width: 60%;
+}
+
+.img img{
+	max-width: 100%;
+}
+
+.img h3{
+	max-width: 460px;
+	font-size: 20px;
+	color: #0e385f;
+}
+
+.abriconta{
+	float: left;
+	width:40%;
+	
+}
+
+.abriconta h2{
+	color: #333;
+	font-size: 25px;
+}
+
+.abriconta h3{
+	font-size: 18px;
+	color: rgb(30, 30, 30);
+	margin-top: 8px;
+	font-weight: normal;
+	
+}
+
+form .criarconta{
+	margin-top: 10px;
+
+}
+
+
+.w50{
+	width: 50%;
+	padding: 5px 5px 0 0;
+	float: left;
+}
+
+.w100{
+	padding: 5px 5px 0 0;
+	width: 100%;
+	float: left;
+}
+
+
+form.criarconta input{
+	width: 100%;
+}
+
+form.criarconta input[type=email],
+form.criarconta input[type=text],
+form.criarconta input[type=password]{
+
+	font-size: 18px;
+	padding: 8px 10px;
+	border: 1px solid #328ba8;
+	border-radius: 10px;
+	outline: none;
+}
+
+form.criarconta input[type=submit]{
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	border: 1px solid;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	
+}
+
+form.criar-conta input[type=submit]:hover{
+    background-color: #67ae55;
+    background: linear-gradient(#81d66c, #75b85b);
+}
+
+form.w100 h3{
+    color: #90949c;
+    font-weight: bold;
+}
+
+form .w100  h2{
+	color: #1d2129;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+form select.nascimento{
+	font-size: 18px;
+    float: left;
+    padding: 5px 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+
+}
+
+form.criarconta .input-radio{
+    display: inline-block;
+    padding: 0 10px 0 0;
+    margin: 0 0 15px 0;
+}
+
+
+form.criar-conta .input-radio label{
+    display: inline-block;
+    padding: 1px 2px 0 0;
+    margin: 0 0 15px 0;
+}
+
+
+.input-radio input[type=radio]{
+
+	width: auto !important;
+	display: inline-block;	
+}
+
+section.linguas{
+	padding: 30px 0;
+	background: white;
+}
+
+section.linguas a {
+	padding-right: 15px;
+	font-size: 14px;
+	color: #365899;
+	text-decoration: none;
+
+}
+
+section.linguas a.selected-lingua{
+	color: #737373;
+}
+
+
+@media screen and (max-width:  768px)
+
+{
+
+
+	.logo
+	{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}	
+
+	form.form-login
+	{
+		margin-top: 17px;
+		float: none;
+		width: 100%;
+		text-align: center;
+
+	}
+
+
+	.login 
+	{
+		display: block;
+		margin: 15px 0;
+		margin-top: 5px;
+
+	}	
+
+	.login p
+	{
+		color: white;
+		font-size: 14px;
+	}
+
+
+	.login input[type=email], .login input[type=senha]
+	{
+		margin-top: 5px;
+		height: 22px;
+		border: 0;
+		padding-left: 3px;
+		width: 100%;
+		max-width: 320px;
+	}
+
+
+	.img{
+		display: none;
+	}
+
+
+.abriconta{
+	width: 100%;
+}
+
+
+}
